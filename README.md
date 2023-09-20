@@ -18,3 +18,33 @@ To use the GitHub Topic Scraper, follow these steps:
 
 2. Install the required Python libraries if you haven't already. You can do this by running the following command:
 
+
+3. Modify the topics you want to scrape within the Python script. By default, it scrapes the top repositories for topics listed on the [GitHub Topics page](https://github.com/topics).
+
+4. Run the script by executing the following command in your terminal:
+
+
+The script will start scraping information for the specified topics and save the data as CSV files in the "data" directory.
+
+## Dependencies
+
+The GitHub Topic Scraper relies on the following Python libraries:
+
+- [Requests](https://pypi.org/project/requests/): For making HTTP GET requests to GitHub pages.
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/): For parsing and navigating HTML content.
+- [Pandas](https://pypi.org/project/pandas/): For creating and manipulating data in DataFrames.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Ahmed Gamal
+
+## Acknowledgments
+
+This project was created as a tool to explore and gather data from GitHub repositories based on topics of interest. Special thanks to the open-source community and the maintainers of the libraries used in this project.
+
+Feel free to customize this README with additional information or instructions specific to your use case. Enjoy exploring GitHub topics and repositories with the GitHub Topic Scraper!
+
